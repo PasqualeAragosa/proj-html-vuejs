@@ -8,14 +8,14 @@ export default {
 <template>
     <div class="my_row d-flex justify-content-between">
         <div class="logo">
-            <img src="../../assets/images/light-logo.png" alt="" srcset="">
+            <img src="../../assets/images/navbar/light-logo.png" alt="" srcset="">
         </div>
         <!-- /.logo -->
         <nav class="navbar">
             <ul class="d-flex m-0">
                 <li>
                     <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        <button class="btn  light dropdown-toggle" type="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             Home
                         </button>
@@ -28,7 +28,7 @@ export default {
                 </li>
                 <li>
                     <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        <button class="btn  light dropdown-toggle" type="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             Pages
                         </button>
@@ -41,7 +41,7 @@ export default {
                 </li>
                 <li>
                     <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        <button class="btn  light dropdown-toggle" type="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             Courses
                         </button>
@@ -54,7 +54,7 @@ export default {
                 </li>
                 <li>
                     <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        <button class="btn  light dropdown-toggle" type="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             Features
                         </button>
@@ -67,7 +67,7 @@ export default {
                 </li>
                 <li>
                     <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        <button class="btn  light dropdown-toggle" type="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             Blog
                         </button>
@@ -80,7 +80,7 @@ export default {
                 </li>
                 <li>
                     <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        <button class="btn light dropdown-toggle" type="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             Shop
                         </button>
@@ -92,16 +92,24 @@ export default {
                     </div>
                 </li>
                 <li>
-                    <div class="basket"></div>
+                    <div class="icon">
+                        <font-awesome-icon icon="fa-solid fa-cart-shopping" />
+                    </div>
                     <!-- /.basket -->
                 </li>
                 <li>
-                    <div class="user">
-                        <font-awesome-icon icon="fa-solid fa-house" />
+                    <div class="icon">
+                        <font-awesome-icon icon="fa-solid fa-circle-user" />
                     </div>
                 </li>
                 <li>
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <div class="input-group flex-nowrap">
+                        <input type="search" class="form-control" placeholder="Search..."
+                            aria-describedby="addon-wrapping">
+                        <span class="input-group-text" id="addon-wrapping">
+                            <font-awesome-icon icon="fa-solid fa-magnifying-glass" class="magnifying_glass" />
+                        </span>
+                    </div>
                 </li>
             </ul>
         </nav>
@@ -111,7 +119,49 @@ export default {
 </template>
 
 <style lang="scss">
-li {
-    padding: 0.5rem;
+.my_row {
+    .logo {
+        margin: auto 0;
+
+        img {
+            width: 150px;
+        }
+    }
+
+    .navbar {
+        li {
+            padding: 0.5rem;
+            margin: auto;
+
+            button {
+                font-size: 0.9rem;
+            }
+
+            input {
+                border-radius: 10px;
+                padding: 0.5rem;
+                border-right: 0px;
+            }
+
+            span {
+                background-color: white;
+                border-radius: 10px;
+            }
+
+            .icon {
+                font-size: 20px;
+                color: white;
+            }
+
+            .light {
+                color: white;
+            }
+
+            .magnifying_glass {
+                color: #27ab94;
+            }
+        }
+
+    }
 }
 </style>
