@@ -12,8 +12,13 @@ export default {
 
 <template>
     <header id="site_header">
-        <NavBar />
-        <JumboTron />
+        <div class="wrapper">
+            <NavBar />
+            <!-- NavBar -->
+            <JumboTron />
+            <!-- JumboTron -->
+        </div>
+        <!-- /.wrapper -->
     </header>
     <!-- /#site_header -->
 </template>
@@ -23,5 +28,10 @@ export default {
 
 #site_header {
     background-color: $cb_port;
+
+    .wrapper {
+        width: 80%;
+        margin: auto;
+    }
 }
 </style>
