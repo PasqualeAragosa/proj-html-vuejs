@@ -8,9 +8,11 @@ import { faCircleUser } from '@fortawesome/free-solid-svg-icons';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
+import { faFile } from '@fortawesome/free-solid-svg-icons';
+import { faUser } from '@fortawesome/free-solid-svg-icons';
 
 
-library.add(faCartShopping, faCircleUser, faMagnifyingGlass, faChevronDown, faCheck)
+library.add(faCartShopping, faCircleUser, faMagnifyingGlass, faChevronDown, faCheck, faFile, faUser)
 
 createApp(App)
     .component('font-awesome-icon', FontAwesomeIcon)

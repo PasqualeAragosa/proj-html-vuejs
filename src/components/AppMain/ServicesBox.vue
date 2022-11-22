@@ -6,97 +6,101 @@ export default {
 </script>
 
 <template>
-    <div class="container">
-        <div class="row">
-            <div class="col-6 d-flex left">
-                <div class="design">
-                    <div class="my_card shadow m-3">
-                        <div class="top_text p-4">
-                            <h5>Graphic Design</h5>
-                            <p>
-                                Have a passion for graphics and arts? Show your talent with confidence and
-                                self-assertiveness.
-                            </p>
+    <div class="services my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 d-flex left">
+                    <div class="design">
+                        <div class="my_card shadow m-3">
+                            <div class="top_text p-4">
+                                <h5>Graphic Design</h5>
+                                <p>
+                                    Have a passion for graphics and arts? Show your talent with confidence and
+                                    self-assertiveness.
+                                </p>
+                            </div>
+                            <!-- /.top_text -->
+                            <img src="../../assets/images/services/home-6-service-image-01.png" alt="">
                         </div>
-                        <!-- /.top_text -->
-                        <img src="../../assets/images/services/home-6-service-image-01.png" alt="">
-                    </div>
-                    <!-- /.my_card -->
-                    <div class="my_card shadow m-3">
-                        <img src="../../assets/images/services/home-6-service-image-03.png" alt="">
-                        <div class="top_text p-4">
-                            <h5>Idea Discussion</h5>
-                            <p>
-                                Get teamed up with the specialists who work and teach coding for years at famous
-                                universities.
-                            </p>
+                        <!-- /.my_card -->
+                        <div class="my_card shadow m-3">
+                            <img src="../../assets/images/services/home-6-service-image-03.png" alt="">
+                            <div class="top_text p-4">
+                                <h5>Idea Discussion</h5>
+                                <p>
+                                    Get teamed up with the specialists who work and teach coding for years at famous
+                                    universities.
+                                </p>
+                            </div>
                         </div>
+                        <!-- /.my_card -->
                     </div>
-                    <!-- /.my_card -->
+                    <!-- /.design -->
+                    <div class="business">
+                        <div class="my_card shadow m-3">
+                            <div class="top_text p-4">
+                                <h5>Business Administration</h5>
+                                <p>
+                                    Learners are encouraged to study the mechanism and structure of system
+                                    administration.
+                                </p>
+                            </div>
+                            <img src="../../assets/images/services/home-6-service-image-02.png" alt="">
+                        </div>
+                        <!-- /.my_card -->
+                        <div class="my_card shadow m-3">
+                            <img src="../../assets/images/services/home-6-service-image-04.png" alt="">
+                            <div class="top_text p-4">
+                                <h5>Web Development</h5>
+                                <p>
+                                    Learn to start building a webpage from scratch. You decide your own pace, course and
+                                    speed.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- /.my_card -->
+                    </div>
+                    <!-- /.business -->
                 </div>
-                <!-- /.design -->
-                <div class="business">
-                    <div class="my_card shadow m-3">
-                        <div class="top_text p-4">
-                            <h5>Business Administration</h5>
-                            <p>
-                                Learners are encouraged to study the mechanism and structure of system administration.
-                            </p>
-                        </div>
-                        <img src="../../assets/images/services/home-6-service-image-02.png" alt="">
-                    </div>
-                    <!-- /.my_card -->
-                    <div class="my_card shadow m-3">
-                        <img src="../../assets/images/services/home-6-service-image-04.png" alt="">
-                        <div class="top_text p-4">
-                            <h5>Web Development</h5>
-                            <p>
-                                Learn to start building a webpage from scratch. You decide your own pace, course and
-                                speed.
-                            </p>
-                        </div>
-                    </div>
-                    <!-- /.my_card -->
+                <!-- /.col-6 -->
+                <div class="col-6 right">
+                    <p class="grey">Togheter we can create</p>
+                    <h2>Services We <span class="green">Can Provide</span> For My Clients.</h2>
+                    <ul class="p-0">
+                        <li class="grey">
+                            <span class="green">
+                                <font-awesome-icon icon="fa-solid fa-check" />
+                            </span>Select & customize courses to your
+                            preferences
+                        </li>
+                        <li class="grey">
+                            <span class="green">
+                                <font-awesome-icon icon="fa-solid fa-check" />
+                            </span>Cange the tutor and make arrangements
+                        </li>
+                        <li class="grey">
+                            <span class="green">
+                                <font-awesome-icon icon="fa-solid fa-check" />
+                            </span>Participate in events to join others
+                        </li>
+                        <li class="grey">
+                            <span class="green">
+                                <font-awesome-icon icon="fa-solid fa-check" />
+                            </span>Get the desired certificate delivered at house
+                        </li>
+                    </ul>
+                    <button>Get started for free</button>
                 </div>
-                <!-- /.business -->
+                <!-- /.col-6 -->
             </div>
-            <!-- /.col-6 -->
-            <div class="col-6 right">
-                <p class="grey">Togheter we can create</p>
-                <h2>Services We <span class="green">Can Provide</span> For My Clients.</h2>
-                <ul class="p-0">
-                    <li class="grey">
-                        <span class="green">
-                            <font-awesome-icon icon="fa-solid fa-check" />
-                        </span>Select & customize courses to your
-                        preferences
-                    </li>
-                    <li class="grey">
-                        <span class="green">
-                            <font-awesome-icon icon="fa-solid fa-check" />
-                        </span>Cange the tutor and make arrangements
-                    </li>
-                    <li class="grey">
-                        <span class="green">
-                            <font-awesome-icon icon="fa-solid fa-check" />
-                        </span>Participate in events to join others
-                    </li>
-                    <li class="grey">
-                        <span class="green">
-                            <font-awesome-icon icon="fa-solid fa-check" />
-                        </span>Get the desired certificate delivered at house
-                    </li>
-                </ul>
-                <button>Get started for free</button>
-            </div>
-            <!-- /.col-6 -->
+            <!-- /.row -->
         </div>
-        <!-- /.row -->
+        <!-- /.container -->
     </div>
-    <!-- /.container -->
+    <!-- /.services -->
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 @use '../../assets/scss/variables.scss' as *;
 
 
@@ -163,7 +167,6 @@ export default {
 
             h2 {
                 font-size: 2.5rem;
-
             }
 
             ul {

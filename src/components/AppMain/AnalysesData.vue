@@ -48,7 +48,7 @@ export default {
     <!-- /.content -->
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 @use '../../assets/scss/variables.scss' as *;
 
 .content {
