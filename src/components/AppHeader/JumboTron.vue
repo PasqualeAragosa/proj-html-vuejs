@@ -65,6 +65,7 @@ export default {
         position: absolute;
         left: -6%;
         bottom: -14%;
+        z-index: 1;
     }
 
     .bottom {
