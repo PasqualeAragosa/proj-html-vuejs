@@ -61,7 +61,6 @@ export default {
     .left_person {
         background-color: transparent;
         height: 70%;
-        // background-color: red;
         position: absolute;
         left: -6%;
         bottom: -14%;
@@ -69,7 +68,6 @@ export default {
     }
 
     .bottom {
-        // background-color: red;
         width: 100%;
         position: absolute;
         top: 40%;
@@ -97,7 +95,6 @@ export default {
 
             .right_person {
                 background-color: transparent;
-                // background-color: red;
                 position: absolute;
                 right: 0;
                 bottom: -35%;
