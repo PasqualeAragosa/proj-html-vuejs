@@ -10,9 +10,17 @@ import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
 import { faFile } from '@fortawesome/free-solid-svg-icons';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
+import { faFlag } from '@fortawesome/free-solid-svg-icons';
+import { faGear } from '@fortawesome/free-solid-svg-icons';
+import { faLifeRing } from '@fortawesome/free-solid-svg-icons';
+import { faDisplay } from '@fortawesome/free-solid-svg-icons';
+import { faSquareFacebook } from '@fortawesome/free-brands-svg-icons';
+import { faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 
-library.add(faCartShopping, faCircleUser, faMagnifyingGlass, faChevronDown, faCheck, faFile, faUser)
+library.add(faCartShopping, faCircleUser, faMagnifyingGlass, faChevronDown, faCheck, faFile, faUser, faFlag, faGear, faLifeRing, faDisplay, faSquareFacebook, faInstagram, faTwitter, faLinkedin)
 
 createApp(App)
     .component('font-awesome-icon', FontAwesomeIcon)

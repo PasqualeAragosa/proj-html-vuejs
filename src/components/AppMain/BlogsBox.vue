@@ -22,7 +22,7 @@ export default {
                 {
                     img: "src/assets/images/blogs/artist-blog-02-480x325.jpg",
                     job: 'Artist',
-                    text: 'Coonection Between Self-Portraits and Identity',
+                    text: 'Connection Between Self-Portraits and Identity',
                     date: 'May 15, 2020',
                     views: '397 views'
                 }
@@ -43,12 +43,12 @@ export default {
                         <img :src="artist.img" alt="">
                     </div>
                     <!-- /.images -->
-                    <div class="details p-4">
+                    <div class="details py-4">
                         <span class="job">
                             {{ artist.job }}
                         </span>
                         <!-- /.job -->
-                        <div class="text">
+                        <div class="text_blog">
                             <h6>
                                 {{ artist.text }}
                             </h6>
@@ -100,8 +100,7 @@ export default {
 
     .images_blogs {
         img {
-            width: 200px;
-            aspect-ratio: 3 / 2;
+            width: 380px;
         }
     }
 
@@ -119,6 +118,7 @@ export default {
     h6 {
         font-weight: 600;
         line-height: 1.75rem;
+        font-size: 1.2rem;
     }
 
     .data span {
