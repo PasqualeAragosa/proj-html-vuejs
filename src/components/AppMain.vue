@@ -16,7 +16,7 @@ export default {
 </script>
 
 <template>
-    <main>
+    <main id="site_main">
         <AnalysesBox />
         <ServicesBox />
         <CoursesBox />
@@ -25,8 +25,11 @@ export default {
         <HelpBox />
         <CertificationBox />
     </main>
+    <!-- /#site_main -->
 </template>
 
 <style lang="scss">
-
+#site_main {
+    margin-top: 300px;
+}
 </style>
