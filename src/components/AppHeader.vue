@@ -30,7 +30,7 @@ export default {
     background-color: $cb_port;
 
     .wrapper {
-        width: 80%;
+        width: 70%;
         margin: auto;
     }
 }

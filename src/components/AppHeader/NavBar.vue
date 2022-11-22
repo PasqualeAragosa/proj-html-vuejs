@@ -15,9 +15,9 @@ export default {
             <ul class="d-flex m-0">
                 <li>
                     <div class="dropdown">
-                        <button class="btn  light dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
+                        <button class="btn  light" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Home
+                            <font-awesome-icon icon="fa-solid fa-chevron-down" class="chevron" />
                         </button>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#">Action</a></li>
@@ -28,9 +28,9 @@ export default {
                 </li>
                 <li>
                     <div class="dropdown">
-                        <button class="btn  light dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
+                        <button class="btn  light" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Pages
+                            <font-awesome-icon icon="fa-solid fa-chevron-down" class="chevron" />
                         </button>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#">Action</a></li>
@@ -41,9 +41,9 @@ export default {
                 </li>
                 <li>
                     <div class="dropdown">
-                        <button class="btn  light dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
+                        <button class="btn  light" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Courses
+                            <font-awesome-icon icon="fa-solid fa-chevron-down" class="chevron" />
                         </button>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#">Action</a></li>
@@ -54,9 +54,9 @@ export default {
                 </li>
                 <li>
                     <div class="dropdown">
-                        <button class="btn  light dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
+                        <button class="btn  light" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Features
+                            <font-awesome-icon icon="fa-solid fa-chevron-down" class="chevron" />
                         </button>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#">Action</a></li>
@@ -67,9 +67,9 @@ export default {
                 </li>
                 <li>
                     <div class="dropdown">
-                        <button class="btn  light dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
+                        <button class="btn  light" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Blog
+                            <font-awesome-icon icon="fa-solid fa-chevron-down" class="chevron" />
                         </button>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#">Action</a></li>
@@ -80,9 +80,9 @@ export default {
                 </li>
                 <li>
                     <div class="dropdown">
-                        <button class="btn light dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
+                        <button class="btn light" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Shop
+                            <font-awesome-icon icon="fa-solid fa-chevron-down" class="chevron" />
                         </button>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#">Action</a></li>
@@ -159,6 +159,10 @@ export default {
 
             .magnifying_glass {
                 color: #27ab94;
+            }
+
+            .chevron {
+                font-size: 10px;
             }
         }
 

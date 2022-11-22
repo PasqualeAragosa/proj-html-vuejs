@@ -6,9 +6,10 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
 import { faCircleUser } from '@fortawesome/free-solid-svg-icons';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 
 
-library.add(faCartShopping, faCircleUser, faMagnifyingGlass)
+library.add(faCartShopping, faCircleUser, faMagnifyingGlass, faChevronDown)
 
 createApp(App)
     .component('font-awesome-icon', FontAwesomeIcon)
