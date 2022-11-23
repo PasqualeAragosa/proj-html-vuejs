@@ -6,10 +6,10 @@ export default {
 </script>
 
 <template>
-    <div class="certification text-center my-5">
-        <h5>Start today for getting Online Certification</h5>
-        <h4>You can be your own guiding star with our help!</h4>
-        <button>Get started now</button>
+    <div class="certification text-center">
+        <h5 class="fw-bold">Start today for getting <span class="green fw-lighter">Online Certification</span></h5>
+        <h3 class="fw-bold">You can be your own guiding star with our help!</h3>
+        <button class="text-white fw-bold  py-3 px-5 border-0 rounded-2 bg_green mt-4">Get started for free</button>
     </div>
     <!-- /.certification -->
 </template>
@@ -18,14 +18,6 @@ export default {
 @use '../../assets/scss/variables.scss' as *;
 
 .certification {
-
-    button {
-        margin-top: 2rem;
-        background-color: $cb_mountain;
-        color: $cb_light;
-        padding: 0.5rem 2rem;
-        border: 0;
-        border-radius: 5px;
-    }
+    margin: 100px 0 100px 0;
 }
 </style>
