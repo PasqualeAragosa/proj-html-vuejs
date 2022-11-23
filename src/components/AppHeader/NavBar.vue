@@ -18,7 +18,7 @@ export default {
                         Home
                         <font-awesome-icon icon="fa-solid fa-chevron-down" class="chevron" />
                     </button>
-                    <ul class="dropdown-menu">
+                    <ul class="my_dropdown_menu d-none text-white">
                         <li><a class="dropdown-item" href="#">Action</a></li>
                         <li><a class="dropdown-item" href="#">Another action</a></li>
                         <li><a class="dropdown-item" href="#">Something else here</a></li>
@@ -29,7 +29,7 @@ export default {
                         Pages
                         <font-awesome-icon icon="fa-solid fa-chevron-down" class="chevron" />
                     </button>
-                    <ul class="dropdown-menu">
+                    <ul class="my_dropdown_menu d-none text-white">
                         <li><a class="dropdown-item" href="#">Action</a></li>
                         <li><a class="dropdown-item" href="#">Another action</a></li>
                         <li><a class="dropdown-item" href="#">Something else here</a></li>
@@ -40,7 +40,7 @@ export default {
                         Courses
                         <font-awesome-icon icon="fa-solid fa-chevron-down" class="chevron" />
                     </button>
-                    <ul class="dropdown-menu">
+                    <ul class="my_dropdown_menu d-none text-white">
                         <li><a class="dropdown-item" href="#">Action</a></li>
                         <li><a class="dropdown-item" href="#">Another action</a></li>
                         <li><a class="dropdown-item" href="#">Something else here</a></li>
@@ -51,7 +51,7 @@ export default {
                         Features
                         <font-awesome-icon icon="fa-solid fa-chevron-down" class="chevron" />
                     </button>
-                    <ul class="dropdown-menu">
+                    <ul class="my_dropdown_menu d-none text-white">
                         <li><a class="dropdown-item" href="#">Action</a></li>
                         <li><a class="dropdown-item" href="#">Another action</a></li>
                         <li><a class="dropdown-item" href="#">Something else here</a></li>
@@ -62,7 +62,7 @@ export default {
                         Blog
                         <font-awesome-icon icon="fa-solid fa-chevron-down" class="chevron" />
                     </button>
-                    <ul class="dropdown-menu">
+                    <ul class="my_dropdown_menu d-none text-white">
                         <li><a class="dropdown-item" href="#">Action</a></li>
                         <li><a class="dropdown-item" href="#">Another action</a></li>
                         <li><a class="dropdown-item" href="#">Something else here</a></li>
@@ -73,7 +73,7 @@ export default {
                         Shop
                         <font-awesome-icon icon="fa-solid fa-chevron-down" class="chevron" />
                     </button>
-                    <ul class="dropdown-menu">
+                    <ul class="my_dropdown_menu d-none text-white">
                         <li><a class="dropdown-item" href="#">Action</a></li>
                         <li><a class="dropdown-item" href="#">Another action</a></li>
                         <li><a class="dropdown-item" href="#">Something else here</a></li>
