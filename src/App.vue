@@ -41,4 +41,8 @@ export default {
 .green {
   color: $cb_mountain;
 }
+
+.grey {
+  color: #F5F7FA;
+}
 </style>

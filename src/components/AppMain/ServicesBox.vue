@@ -67,8 +67,7 @@ export default {
                     <div class="col-6 slogan m-auto">
                         <p class="text-uppercase text-secondary">Togheter we can create</p>
                         <h2 class="fs-1 fw-bold">Services We <span class="green fw-lighter">Can Provide</span> For My
-                            Clients.
-                        </h2>
+                            Clients.</h2>
                         <ul class="mt-4 p-0">
                             <li class="text-secondary lh-lg">
                                 <span class="green d-inline-block me-3">
