@@ -17,16 +17,13 @@ export default {
 
 <template>
     <main id="site_main">
-        <div class="wrapper m-auto w-75">
-            <AnalysesBox />
-            <ServicesBox />
-            <CoursesBox />
-            <TalkBox />
-            <BlogsBox />
-            <HelpBox />
-            <CertificationBox />
-        </div>
-        <!-- /.wrapper -->
+        <AnalysesBox />
+        <ServicesBox />
+        <CoursesBox />
+        <TalkBox />
+        <BlogsBox />
+        <HelpBox />
+        <CertificationBox />
     </main>
     <!-- /#site_main -->
 </template>

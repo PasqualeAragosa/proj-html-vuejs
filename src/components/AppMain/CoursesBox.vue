@@ -54,45 +54,49 @@ export default {
 </script>
 
 <template>
-    <div class="courses text-center">
-        <p>Choose a course to get Started</p>
-        <h2 class="my-5">Latest Featured <span>Courses</span></h2>
-        <div class="container">
-            <div class="row">
-                <div class="col-6 d-flex align-items-center flex-wrap text-start my-4" v-for="course in courses">
-                    <div class="images">
-                        <img :src="course.img" alt="">
-                    </div>
-                    <!-- /.images -->
-                    <div class="details p-4">
-                        <span class="price">
-                            {{ course.price }}<span v-if="course.price !== 'Free'" class="decimals">.00</span>
-                        </span>
-                        <!-- /.price -->
-                        <div class="text ml-0">
-                            <h6>
-                                {{ course.text }}
-                            </h6>
+    <div class="courses text-center bg_grey">
+        <div class="wrapper">
+            <p class="text-uppercase text-secondary">Choose a course to get started</p>
+            <h2 class="fs-1 fw-bold">Latest Featured <span class="green fw-lighter">Can Provide</span></h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 d-flex align-items-center flex-wrap text-start my-4" v-for="course in courses">
+                        <div class="images">
+                            <img :src="course.img" alt="">
                         </div>
-                        <!-- /.text -->
-                        <div class="data">
-                            <span class="lessons">
-                                <font-awesome-icon icon="fa-regular fa-file" /> {{ course.lessons }}
+                        <!-- /.images -->
+                        <div class="details p-4">
+                            <span class="price green fw-bold">
+                                {{ course.price }}<span v-if="course.price !== 'Free'" class="decimals">.00</span>
                             </span>
-                            <span class="students mx-3">
-                                <font-awesome-icon icon="fa-regular fa-user" /> {{ course.students }}
-                            </span>
+                            <!-- /.price -->
+                            <div class="text ms-0">
+                                <h6 class="fw-bold my-3">
+                                    {{ course.text }}
+                                </h6>
+                            </div>
+                            <!-- /.text -->
+                            <div class="data text-secondary">
+                                <span class="lessons">
+                                    <font-awesome-icon icon="fa-regular fa-file" /> {{ course.lessons }}
+                                </span>
+                                <span class="students mx-3">
+                                    <font-awesome-icon icon="fa-regular fa-user" /> {{ course.students }}
+                                </span>
+                            </div>
+                            <!-- /.data -->
                         </div>
-                        <!-- /.data -->
+                        <!-- /.details -->
                     </div>
-                    <!-- /.details -->
+                    <!-- /.col-6 -->
                 </div>
-                <!-- /.col-6 -->
+                <!-- /.row -->
             </div>
-            <!-- /.row -->
+            <!-- /.container -->
+            <button class="text-white fw-bold  py-3 px-5 border-0 rounded-2 bg_green mt-4">View all courses
+                &rarr;</button>
         </div>
-        <!-- /.container -->
-        <button>View all courses &rarr;</button>
+        <!-- /.wrapper -->
     </div>
     <!-- /.courses -->
 </template>
@@ -101,22 +105,7 @@ export default {
 @use '../../assets/scss/variables.scss' as *;
 
 .courses {
-    background-color: $bg_grey;
     padding: 4rem 0;
-
-    p {
-        color: grey;
-        text-transform: uppercase;
-    }
-
-    h2 {
-        font-weight: 600;
-
-        span {
-            color: $cb_mountain;
-            font-weight: 100;
-        }
-    }
 
     .images {
         img {
@@ -129,41 +118,18 @@ export default {
 
     .details {
         width: 280px;
-
-        h6 {
-            font-weight: 600;
-            line-height: 1.75rem;
-            display: inline-block;
-        }
-
-        .text {
-            margin-left: 0;
-        }
     }
 
     .price {
-        color: $cb_mountain;
         font-size: 1.25rem;
-        font-weight: 600;
 
         .decimals {
             font-size: 80%;
         }
     }
 
-
     .data span {
         font-size: 0.85rem;
-        color: $cb_gray;
-    }
-
-    button {
-        background-color: $cb_mountain;
-        color: $cb_light;
-        padding: 0.5rem 2rem;
-        margin: 2rem;
-        border: 0;
-        border-radius: 5px;
     }
 }
 </style>

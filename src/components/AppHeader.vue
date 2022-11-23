@@ -12,7 +12,7 @@ export default {
 
 <template>
     <header id="site_header" class="position-relative bg_jumbo">
-        <div class="wrapper m-auto w-75">
+        <div class="wrapper">
             <NavBar />
             <!-- NavBar -->
             <JumboTron />
