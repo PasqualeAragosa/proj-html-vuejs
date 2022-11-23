@@ -11,7 +11,7 @@ export default {
 </script>
 
 <template>
-    <header id="site_header" class="position-relative">
+    <header id="site_header" class="position-relative bg_jumbo">
         <div class="wrapper m-auto w-75">
             <NavBar />
             <!-- NavBar -->
@@ -41,22 +41,18 @@ export default {
 <style lang="scss">
 @use '../assets/scss/variables.scss' as *;
 
-#site_header {
-    background-color: $cb_jumbo;
+.waves_1 {
+    bottom: 0;
+    opacity: 0.6;
+}
 
-    .waves_1 {
-        bottom: 0;
-        opacity: 0.6;
-    }
+.waves_2 {
+    bottom: 0;
+    opacity: 0.7;
+}
 
-    .waves_2 {
-        bottom: 0;
-        opacity: 0.7;
-    }
-
-    .waves_3 {
-        bottom: 0;
-        opacity: 0.8;
-    }
+.waves_3 {
+    bottom: 0;
+    opacity: 0.8;
 }
 </style>

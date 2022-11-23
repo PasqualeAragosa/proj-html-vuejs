@@ -10,7 +10,7 @@ export default {
         <div class="top_jumbo mt-5">
             <h1 class="text-white fw-bold">Learn At Your Own Pace!</h1>
             <p class="text-light my-4">Get teamed up with people of the same will.</p>
-            <button class="text-white fw-bold  py-3 px-5 border-0 rounded-2 green">Get started for free</button>
+            <button class="text-white fw-bold  py-3 px-5 border-0 rounded-2 bg_green">Get started for free</button>
         </div>
         <!-- /.top_jumbo -->
 
@@ -45,10 +45,6 @@ export default {
 
     .top_jumbo {
         height: 600px;
-
-        .green {
-            background-color: $cb_mountain;
-        }
     }
 
     .bottom_jumbo {

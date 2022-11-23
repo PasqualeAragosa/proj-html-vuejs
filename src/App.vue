@@ -21,6 +21,14 @@ export default {
 <style lang="scss">
 @use './assets/scss/variables.scss' as *;
 
+.bg_jumbo {
+  background-color: $cb_jumbo;
+}
+
+.bg_green {
+  background-color: $cb_mountain;
+}
+
 .green {
   color: $cb_mountain;
 }

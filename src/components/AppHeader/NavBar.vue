@@ -95,7 +95,7 @@ export default {
                         <input type="search" class="form-control p-2 border-end-0 rounded-start-3"
                             placeholder="Search..." aria-describedby="addon-wrapping">
                         <span class="input-group-text rounded-end-3 bg-white" id="addon-wrapping">
-                            <font-awesome-icon icon="fa-solid fa-magnifying-glass" class="magnifying_glass" />
+                            <font-awesome-icon icon="fa-solid fa-magnifying-glass" class="magnifying_glass green" />
                         </span>
                     </div>
                 </li>
@@ -118,16 +118,12 @@ export default {
 }
 
 .navbar .menu {
-    li {
 
-        .magnifying_glass {
-            color: $cb_mountain;
-        }
+    li {
 
         .chevron {
             font-size: 10px;
         }
     }
-
 }
 </style>
