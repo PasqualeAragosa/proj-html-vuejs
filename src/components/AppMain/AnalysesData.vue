@@ -31,44 +31,29 @@ export default {
 </script>
 
 <template>
-    <div class="content">
+    <div class="analyses_data">
         <ul class="d-flex justify-content-evenly">
             <li v-for="stat in statistics">
-                <h2 class="num">
+                <h2 class="green text-center fs-1 fw-bold">
                     {{ stat.num }}
                     <span v-if="stat.text === 'Enrolled Learns'">&plus;</span>
                     <span v-if="stat.text === 'Satisfaction Rate'">&percnt;</span>
                 </h2>
-                <!-- /.num -->
-                <span class="details">{{ stat.text }}</span>
-                <!-- /.details -->
+                <span class="text-center text-uppercase d-block">{{ stat.text }}</span>
             </li>
         </ul>
     </div>
-    <!-- /.content -->
+    <!-- /.analyses_data -->
 </template>
 
 <style lang="scss" scoped>
 @use '../../assets/scss/variables.scss' as *;
 
-.content {
+.analyses_data {
     margin: 120px 0;
 
-    .num {
-        text-align: center;
-        font-size: 2.5rem;
-        color: $mt_jungle;
-        font-weight: 600;
-
-        span {
-            margin-left: -10px;
-        }
-    }
-
-    .details {
-        display: block;
-        text-align: center;
-        text-transform: uppercase;
+    span {
+        margin-left: -10px;
     }
 }
 </style>

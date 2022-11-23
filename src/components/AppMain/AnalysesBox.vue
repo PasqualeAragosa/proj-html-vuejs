@@ -10,41 +10,19 @@ export default {
 </script>
 
 <template>
-    <div class="analyses">
-        <h3>
+    <section class="analyses w-50 m-auto text-center">
+        <h3 class="mb-4">
             Let passion and determination be the guide along the way and develop at your own pace that's
             comfortable.
         </h3>
-        <span class="name">Fannie Moreno</span>
-        <!-- /.name -->
-        <span class="description"> <i>/Founder & CEO</i></span>
-        <!-- /.description -->
-    </div>
+        <span class="fw-bold d-block text-uppercase">Fannie Moreno</span>
+        <span class="fw-bold mt-2 text-secondary d-block fst-italic">/Founder & CEO</span>
+    </section>
     <!-- /.analyses -->
     <AnalysesData />
+    <!-- AnalysesData -->
 </template>
 
 <style lang="scss" scoped>
-@use '../../assets/scss/variables.scss' as *;
 
-.analyses {
-    width: 40%;
-    margin: auto;
-    text-align: center;
-    position: relative;
-    margin-bottom: 2rem;
-
-    h3 {
-        margin-bottom: 1.5rem;
-    }
-
-    span {
-        display: block;
-
-        &:last-child {
-            color: $cb_silver;
-            margin-top: 0.5rem;
-        }
-    }
-}
 </style>

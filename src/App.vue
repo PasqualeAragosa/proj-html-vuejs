@@ -19,5 +19,9 @@ export default {
 </template>
 
 <style lang="scss">
+@use './assets/scss/variables.scss' as *;
 
+.green {
+  color: $cb_mountain;
+}
 </style>

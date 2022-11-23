@@ -17,19 +17,22 @@ export default {
 
 <template>
     <main id="site_main">
-        <AnalysesBox />
-        <ServicesBox />
-        <CoursesBox />
-        <TalkBox />
-        <BlogsBox />
-        <HelpBox />
-        <CertificationBox />
+        <div class="wrapper m-auto w-75">
+            <AnalysesBox />
+            <ServicesBox />
+            <CoursesBox />
+            <TalkBox />
+            <BlogsBox />
+            <HelpBox />
+            <CertificationBox />
+        </div>
+        <!-- /.wrapper -->
     </main>
     <!-- /#site_main -->
 </template>
 
 <style lang="scss">
 #site_main {
-    margin-top: 300px;
+    margin-top: 200px;
 }
 </style>
