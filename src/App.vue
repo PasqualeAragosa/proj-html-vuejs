@@ -27,22 +27,22 @@ export default {
 }
 
 .bg_jumbo {
-  background-color: $cb_jumbo;
+  background-color: $jumbo;
 }
 
 .bg_green {
-  background-color: $cb_mountain;
+  background-color: $mountain;
 }
 
 .bg_grey {
-  background-color: #F5F7FA;
+  background-color: $grey;
 }
 
 .green {
-  color: $cb_mountain;
+  color: $mountain;
 }
 
 .grey {
-  color: #F5F7FA;
+  color: $grey;
 }
 </style>
