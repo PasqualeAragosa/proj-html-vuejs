@@ -6,166 +6,128 @@ export default {
 </script>
 
 <template>
-    <div class="my_row d-flex justify-content-between">
+    <div class="navbar d-flex justify-content-between">
         <div class="logo">
             <img src="../../assets/images/navbar/light-logo.png" alt="" srcset="">
         </div>
         <!-- /.logo -->
-        <nav class="navbar">
+        <nav class="menu">
             <ul class="d-flex m-0">
-                <li>
-                    <div class="dropdown">
-                        <button class="btn  light" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Home
-                            <font-awesome-icon icon="fa-solid fa-chevron-down" class="chevron" />
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </div>
+                <li class="p-2 m-auto">
+                    <button class="btn text-white" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Home
+                        <font-awesome-icon icon="fa-solid fa-chevron-down" class="chevron" />
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
                 </li>
-                <li>
-                    <div class="dropdown">
-                        <button class="btn  light" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Pages
-                            <font-awesome-icon icon="fa-solid fa-chevron-down" class="chevron" />
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </div>
+                <li class="p-2 m-auto">
+                    <button class="btn text-white" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Pages
+                        <font-awesome-icon icon="fa-solid fa-chevron-down" class="chevron" />
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
                 </li>
-                <li>
-                    <div class="dropdown">
-                        <button class="btn  light" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Courses
-                            <font-awesome-icon icon="fa-solid fa-chevron-down" class="chevron" />
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </div>
+                <li class="p-2 m-auto">
+                    <button class="btn text-white" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Courses
+                        <font-awesome-icon icon="fa-solid fa-chevron-down" class="chevron" />
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
                 </li>
-                <li>
-                    <div class="dropdown">
-                        <button class="btn  light" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Features
-                            <font-awesome-icon icon="fa-solid fa-chevron-down" class="chevron" />
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </div>
+                <li class="p-2 m-auto">
+                    <button class="btn text-white" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Features
+                        <font-awesome-icon icon="fa-solid fa-chevron-down" class="chevron" />
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
                 </li>
-                <li>
-                    <div class="dropdown">
-                        <button class="btn  light" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Blog
-                            <font-awesome-icon icon="fa-solid fa-chevron-down" class="chevron" />
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </div>
+                <li class="p-2 m-auto">
+                    <button class="btn  text-white" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Blog
+                        <font-awesome-icon icon="fa-solid fa-chevron-down" class="chevron" />
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
                 </li>
-                <li>
-                    <div class="dropdown">
-                        <button class="btn light" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Shop
-                            <font-awesome-icon icon="fa-solid fa-chevron-down" class="chevron" />
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </div>
+                <li class="p-2 m-auto">
+                    <button class="btn text-white" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Shop
+                        <font-awesome-icon icon="fa-solid fa-chevron-down" class="chevron" />
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
                 </li>
-                <li>
-                    <div class="icon">
+                <li class="p-2 m-auto">
+                    <div class="text-white fs-6">
                         <font-awesome-icon icon="fa-solid fa-cart-shopping" />
                     </div>
                     <!-- /.basket -->
                 </li>
-                <li>
-                    <div class="icon">
+                <li class="p-2 m-auto">
+                    <div class="text-white fs-6">
                         <font-awesome-icon icon="fa-regular fa-user" />
                     </div>
                 </li>
-                <li>
+                <li class="p-2 m-auto">
                     <div class="input-group flex-nowrap">
-                        <input type="search" class="form-control" placeholder="Search..."
-                            aria-describedby="addon-wrapping">
-                        <span class="input-group-text" id="addon-wrapping">
+                        <input type="search" class="form-control p-2 border-end-0 rounded-start-3"
+                            placeholder="Search..." aria-describedby="addon-wrapping">
+                        <span class="input-group-text rounded-end-3 bg-white" id="addon-wrapping">
                             <font-awesome-icon icon="fa-solid fa-magnifying-glass" class="magnifying_glass" />
                         </span>
                     </div>
                 </li>
             </ul>
         </nav>
-        <!-- /.navbar -->
+        <!-- /.menu -->
     </div>
-    <!-- /.my_row -->
+    <!-- /.navbar -->
 </template>
 
 <style lang="scss">
-.my_row {
-    .logo {
-        margin: auto 0;
+@use '../../assets/scss/variables.scss' as *;
 
-        img {
-            width: 150px;
+.logo {
+    margin: auto 0;
+
+    img {
+        width: 150px;
+    }
+}
+
+.navbar .menu {
+    li {
+
+        .magnifying_glass {
+            color: $cb_mountain;
+        }
+
+        .chevron {
+            font-size: 10px;
         }
     }
 
-    .navbar {
-        li {
-            padding: 0.5rem;
-            margin: auto;
-
-            button {
-                font-size: 0.9rem;
-            }
-
-            input {
-                border-radius: 10px;
-                padding: 0.5rem;
-                border-right: 0px;
-            }
-
-            span {
-                background-color: white;
-                border-radius: 10px;
-            }
-
-            .icon {
-                font-size: 20px;
-                color: white;
-            }
-
-            .light {
-                color: white;
-            }
-
-            .magnifying_glass {
-                color: #27ab94;
-            }
-
-            .chevron {
-                font-size: 10px;
-            }
-        }
-
-    }
 }
 </style>

@@ -42,7 +42,7 @@ export default {
 @use '../assets/scss/variables.scss' as *;
 
 #site_header {
-    background-color: $cb_port;
+    background-color: $cb_jumbo;
     position: relative;
 
     .wrapper {
