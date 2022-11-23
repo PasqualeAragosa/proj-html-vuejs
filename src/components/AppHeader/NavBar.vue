@@ -99,7 +99,7 @@ export default {
                 </li>
                 <li>
                     <div class="icon">
-                        <font-awesome-icon icon="fa-solid fa-circle-user" />
+                        <font-awesome-icon icon="fa-regular fa-user" />
                     </div>
                 </li>
                 <li>

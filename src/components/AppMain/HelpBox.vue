@@ -6,9 +6,9 @@ export default {
 </script>
 
 <template>
-    <div class="blog text-center">
-        <p>Enjoy Reading On MaxCoach</p>
-        <h2 class="my-2">Latest on <span>Our Blogs</span></h2>
+    <div class="help text-center">
+        <p>Wanna trasform your life?</p>
+        <h2 class="my-2">Glad to <span>Help You</span> Learn</h2>
         <ul class="d-flex justify-content-center my-4">
             <li class="text-start">
                 <font-awesome-icon icon="fa-solid fa-flag" class="help_icon my-3" />
@@ -39,8 +39,11 @@ export default {
 <style lang="scss" scoped>
 @use '../../assets/scss/variables.scss' as *;
 
-.blog {
+.help {
     padding: 4rem 0;
+    height: 950px;
+    background-image: linear-gradient(to bottom, white, #EFF1F4);
+    position: relative;
 
     p:first-child {
         color: grey;
@@ -69,6 +72,13 @@ export default {
         .help_icon {
             font-size: 2.5rem;
         }
+    }
+
+    img {
+        position: absolute;
+        bottom: -3%;
+        left: 50%;
+        translate: -50%;
     }
 }
 </style>

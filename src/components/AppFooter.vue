@@ -7,7 +7,7 @@ export default {
 
 <template>
     <footer id="site_footer">
-        <div class="wrapper my-5">
+        <div class="wrapper py-5">
             <div class="container">
                 <div class="row">
                     <div class="col-6 address">
@@ -26,7 +26,35 @@ export default {
                         <!-- /.social -->
                     </div>
                     <!-- /.col-6 -->
-                    <div class="col-6 info"></div>
+                    <div class="col-6 info d-flex">
+                        <div class="explore flex-grow-1">
+                            <h5>Explore</h5>
+                            <ul class="mt-3">
+                                <li>Start here</li>
+                                <li>Blog</li>
+                                <li>About us</li>
+                            </ul>
+                        </div>
+                        <!-- /.explore -->
+                        <div class="other flex-grow-1 align-self-center">
+                            <ul>
+                                <li>Success story</li>
+                                <li>Courses</li>
+                                <li>Contact us</li>
+                            </ul>
+                        </div>
+                        <!-- /.other -->
+                        <div class="information flex-grow-1">
+                            <h5>Information</h5>
+                            <ul class="mt-3">
+                                <li>Membership</li>
+                                <li>Purchase guide</li>
+                                <li>Privacy policy</li>
+                                <li>Terms of services</li>
+                            </ul>
+                        </div>
+                        <!-- /.information -->
+                    </div>
                     <!-- /.col-6 -->
                 </div>
                 <!-- /.row -->
@@ -43,22 +71,28 @@ export default {
 </template>
 
 <style lang="scss">
-h5 {
-    color: black;
-}
+@use '../assets/scss/variables.scss' as *;
 
-ul {
-    padding: 0;
-    margin: 0;
-    line-height: 2.5rem;
-}
+#site_footer {
+    background-color: $bg_grey;
 
-.web {
-    .social {
-        font-size: 2rem;
-        margin-right: 1.5rem;
-        color: grey;
-        margin-top: 1.2rem;
+    h5 {
+        color: black;
+    }
+
+    ul {
+        padding: 0;
+        margin: 0;
+        line-height: 2.5rem;
+    }
+
+    .web {
+        .social {
+            font-size: 2rem;
+            margin-right: 1.5rem;
+            color: grey;
+            margin-top: 1.2rem;
+        }
     }
 }
 </style>

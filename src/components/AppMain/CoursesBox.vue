@@ -69,7 +69,7 @@ export default {
                             {{ course.price }}<span v-if="course.price !== 'Free'" class="decimals">.00</span>
                         </span>
                         <!-- /.price -->
-                        <div class="text">
+                        <div class="text ml-0">
                             <h6>
                                 {{ course.text }}
                             </h6>
@@ -77,10 +77,10 @@ export default {
                         <!-- /.text -->
                         <div class="data">
                             <span class="lessons">
-                                <font-awesome-icon icon="fa-solid fa-file" /> {{ course.lessons }}
+                                <font-awesome-icon icon="fa-regular fa-file" /> {{ course.lessons }}
                             </span>
                             <span class="students mx-3">
-                                <font-awesome-icon icon="fa-solid fa-user" /> {{ course.students }}
+                                <font-awesome-icon icon="fa-regular fa-user" /> {{ course.students }}
                             </span>
                         </div>
                         <!-- /.data -->
@@ -128,7 +128,17 @@ export default {
     }
 
     .details {
-        width: 350px
+        width: 280px;
+
+        h6 {
+            font-weight: 600;
+            line-height: 1.75rem;
+            display: inline-block;
+        }
+
+        .text {
+            margin-left: 0;
+        }
     }
 
     .price {
@@ -141,10 +151,6 @@ export default {
         }
     }
 
-    h6 {
-        font-weight: 600;
-        line-height: 1.75rem;
-    }
 
     .data span {
         font-size: 0.85rem;

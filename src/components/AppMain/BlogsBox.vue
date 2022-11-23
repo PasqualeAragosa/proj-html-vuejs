@@ -56,10 +56,10 @@ export default {
                         <!-- /.text -->
                         <div class="data">
                             <span class="date">
-                                <font-awesome-icon icon="fa-solid fa-file" /> {{ artist.date }}
+                                <font-awesome-icon icon="fa-regular fa-file" /> {{ artist.date }}
                             </span>
                             <span class="views mx-3">
-                                <font-awesome-icon icon="fa-solid fa-user" /> {{ artist.views }}
+                                <font-awesome-icon icon="fa-regular fa-eye" /> {{ artist.views }}
                             </span>
                         </div>
                         <!-- /.data -->
