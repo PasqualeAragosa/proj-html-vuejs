@@ -7,7 +7,7 @@ export default {
 
 <template>
     <div class="talk my-5 text-center">
-        <h2>Why People Talk About MaxCoach?</h2>
+        <h2 class="fs-1 fw-bold">Why People Talk About <span class="green fw-lighter">MaxCoach</span>?</h2>
         <div class="details d-flex justify-content-center my-5 align-items-center">
             <div class="images">
                 <img src="../../assets/images/testimonial/testimonial-avata-02.jpg" alt="" srcset="">
@@ -17,14 +17,12 @@ export default {
             </div>
             <!-- /.images -->
             <div class="text">
-                <h3>
+                <h3 class="text-start lh-base">
                     I am free to learn at my own pace, follow my own schedule and choose the subject I like. Great study
                     portal for people like me.
                 </h3>
-                <span class="name">Mina Hollace</span>
-                <!-- /.name -->
-                <span class="description"> <i>/Freelancer</i></span>
-                <!-- /.description -->
+                <span class="fw-bold d-block text-uppercase mt-4 text-start">Mina Hollace</span>
+                <span class="fw-bold mt-2 text-secondary d-block fst-italic text-start">/Freelancer</span>
             </div>
             <!-- /.text -->
         </div>
@@ -78,24 +76,6 @@ export default {
 .text {
     width: 600px;
     margin-left: 4rem;
-
-    h3 {
-        text-align: start;
-        line-height: 2.5rem;
-    }
-
-    span {
-        display: block;
-        text-align: start;
-        margin-top: 2rem;
-        text-transform: uppercase;
-
-        &:last-child {
-            color: $cb_silver;
-            margin-top: 0.5rem;
-            text-transform: capitalize;
-        }
-    }
 }
 
 .sponsor {
