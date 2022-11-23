@@ -60,7 +60,7 @@ export default {
                 <!-- /.row -->
             </div>
             <!-- /.container -->
-            <div class="copyright my-5 text-center text-secondary">
+            <div class="copyright mt-5 text-center text-secondary">
                 &copy; 2020 Maxcoach. All Right Reserved
             </div>
             <!-- /.copyright -->
